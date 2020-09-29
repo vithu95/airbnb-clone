@@ -1,20 +1,23 @@
-import React from 'react';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+import Home from "./Home";
+import Header from "./Header";
 function App() {
   return (
     <div className="app">
-      <h2>Hello World</h2>
+      <Header/>
       {/* Home */}
-        {/* Header */}
-        {/* Banner */}
-        
-        {/* Cards */}
+      <Home />
+      {/* Header */}
+      {/* Banner */}
 
-        {/* Footer */}
-      
+      {/* Cards */}
+
+      {/* Footer */}
+
       {/* Search Page */}
-        {/* ... */}
+      {/* Header */}
+      {/* ... */}
     </div>
   );
 }
